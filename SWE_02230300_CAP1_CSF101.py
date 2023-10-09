@@ -2,6 +2,7 @@ import requests
 from urllib.parse import quote
 import time
 
+#making the loop infinite
 while True:
 
     def send_message(message):
