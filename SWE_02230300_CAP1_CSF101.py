@@ -7,7 +7,7 @@ while True:
 
     def send_message(message):
         token = '6372306748:AAGJMdxyunQ7YnEgXQvblwXH9fytoGOC2O4'
-        chat_id = '1677618396'  # Replace with the actual chat_id
+        chat_id = '1677618396'
         message = quote(message)
         url = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chat_id}&text={message}"
         print(requests.get(url).json())
